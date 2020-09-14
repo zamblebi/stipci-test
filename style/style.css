@@ -29,6 +29,12 @@ nav ul li a{
     text-decoration: none;
     color: #333333
 }
+nav ul li a:hover{
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 3px solid #353E8E;
+    transition: all 100ms ease-out;
+}
 
 
 /* Heros */
@@ -81,7 +87,7 @@ nav ul li a{
     color: #ffffff;
     text-decoration: none;
     background-color: #E66925;
-    padding: 18px 60px;
+    padding: 12px 55px;
     border-radius: 7px;
 }
 
@@ -113,16 +119,17 @@ nav ul li a{
     padding-top: 10px;;
 }
 .heros .service-brand div{
-    padding-top: 60px;
+    /* padding: 60px 0; */
+    margin-top: 60px ;
     width: 100px;
     text-align: center;
     align-items: center;
 }
 
-.heros .service-brand .s-item{
+.heros .service-brand .s-item img{
     margin-bottom: 10px;
-    padding: 30px 30px;
-    width: 30px;
+    padding: 10px 10px;
+    width: 70px;
     background-color: #E66925;
     border-radius: 7px;
     margin-right: 0;
